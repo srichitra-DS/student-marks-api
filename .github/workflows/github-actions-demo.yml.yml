@@ -15,4 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: 24f3004557@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
       - run: echo "🍏 This job's status is ${{ job.status }}."
